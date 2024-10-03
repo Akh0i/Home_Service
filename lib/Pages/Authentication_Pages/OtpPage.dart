@@ -35,81 +35,85 @@ class _OtppageState extends State<Otppage> {
                       letterSpacing: 1,
                       wordSpacing: 1),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 100,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                        margin: EdgeInsets.only(right: 16),
-                        padding: EdgeInsets.only(left: 9, right: 2, bottom: 5),
+                        margin: const EdgeInsets.only(right: 16),
+                        padding:
+                            const EdgeInsets.only(left: 9, right: 2, bottom: 5),
                         decoration: BoxDecoration(
                             border: Border.all(width: 1.5),
                             borderRadius: BorderRadius.circular(10),
                             color: const Color.fromARGB(17, 34, 33, 33)),
                         height: 70,
                         width: 70,
-                        child: TextField(
+                        child: const TextField(
                             style: TextStyle(fontSize: 26),
                             decoration: InputDecoration(
                                 border: OutlineInputBorder(
                                     borderSide: BorderSide.none)))),
                     Container(
-                        margin: EdgeInsets.only(right: 16),
-                        padding: EdgeInsets.only(left: 9, right: 2, bottom: 5),
+                        margin: const EdgeInsets.only(right: 16),
+                        padding:
+                            const EdgeInsets.only(left: 9, right: 2, bottom: 5),
                         decoration: BoxDecoration(
                             border: Border.all(width: 1.5),
                             borderRadius: BorderRadius.circular(10),
                             color: const Color.fromARGB(17, 34, 33, 33)),
                         height: 70,
                         width: 70,
-                        child: TextField(
+                        child: const TextField(
                             style: TextStyle(fontSize: 26),
                             decoration: InputDecoration(
                                 border: OutlineInputBorder(
                                     borderSide: BorderSide.none)))),
                     Container(
-                        margin: EdgeInsets.only(right: 16),
-                        padding: EdgeInsets.only(left: 9, right: 2, bottom: 5),
+                        margin: const EdgeInsets.only(right: 16),
+                        padding:
+                            const EdgeInsets.only(left: 9, right: 2, bottom: 5),
                         decoration: BoxDecoration(
                             border: Border.all(width: 1.5),
                             borderRadius: BorderRadius.circular(10),
                             color: const Color.fromARGB(17, 34, 33, 33)),
                         height: 70,
                         width: 70,
-                        child: TextField(
+                        child: const TextField(
                             style: TextStyle(fontSize: 26),
                             decoration: InputDecoration(
                                 border: OutlineInputBorder(
                                     borderSide: BorderSide.none)))),
                     Container(
-                        padding: EdgeInsets.only(left: 9, right: 2, bottom: 5),
+                        padding:
+                            const EdgeInsets.only(left: 9, right: 2, bottom: 5),
                         decoration: BoxDecoration(
                             border: Border.all(width: 1.5),
                             borderRadius: BorderRadius.circular(10),
                             color: const Color.fromARGB(17, 34, 33, 33)),
                         height: 70,
                         width: 70,
-                        child: TextField(
+                        child: const TextField(
                             style: TextStyle(fontSize: 26),
                             decoration: InputDecoration(
                                 border: OutlineInputBorder(
                                     borderSide: BorderSide.none)))),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                  Text(
+                  const Text(
                     "Didn't receive OTP",
                     style: TextStyle(
-                        color: const Color.fromARGB(59, 0, 0, 0), fontSize: 18),
+                        color: Color.fromARGB(59, 0, 0, 0), fontSize: 18),
                   ),
                   TextButton(
                       onPressed: () {},
-                      child: Text(
+                      child: const Text(
                         "Resend OTP",
                         style: TextStyle(
                             color: Colors.orange,
@@ -117,7 +121,7 @@ class _OtppageState extends State<Otppage> {
                             fontSize: 16),
                       ))
                 ]),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 SizedBox(
@@ -131,9 +135,9 @@ class _OtppageState extends State<Otppage> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (contex) => HomeScreen()));
+                                builder: (contex) => const HomeScreen()));
                       },
-                      child: Text(
+                      child: const Text(
                         "Submit",
                         style: TextStyle(
                             fontSize: 17.5,

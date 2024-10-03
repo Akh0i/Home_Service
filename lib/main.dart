@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:home_service/Pages/Authentication_Pages/Login.dart';
-import 'package:home_service/Pages/Authentication_Pages/OtpPage.dart';
-import 'package:home_service/Pages/Authentication_Pages/SignUp.dart';
-
-import 'package:home_service/Pages/home.dart';
+import 'package:home_service/Pages/bottom%20.dart';
 
 void main() {
   runApp(const MainPage());
@@ -14,8 +10,8 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child:
-            MaterialApp(debugShowCheckedModeBanner: false, home: LoginPage()));
+    return const SafeArea(
+        child: MaterialApp(
+            debugShowCheckedModeBanner: false, home: BottomNavigator()));
   }
 }
