@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:home_service/Pages/bottom%20.dart';
 import 'package:home_service/Pages/home.dart';
 
 class OrderConform extends StatefulWidget {
@@ -97,7 +98,7 @@ class _OrderConformState extends State<OrderConform> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const HomeScreen()));
+                            builder: (context) => const BottomNavigator()));
                   },
                   child: const Text(
                     "Go Back Home",

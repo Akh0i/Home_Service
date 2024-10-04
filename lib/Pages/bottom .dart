@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:home_service/Pages/Authentication_Pages/bookinghistory.dart';
+import 'package:home_service/Pages/Authentication_Pages/profile.dart';
+import 'package:home_service/Pages/Authentication_Pages/search.dart';
 import 'package:home_service/Pages/home.dart'; // Importing home.dart file
 
 class BottomNavigator extends StatefulWidget {
@@ -14,9 +17,9 @@ class _BottomNavigatorState extends State<BottomNavigator> {
   // List of widgets for each bottom navigation item
   static final List<Widget> widgetOption = <Widget>[
     HomeScreen(), // Your HomeScreen widget from home.dart
-    Text("Search"),
-    Text("Booking"),
-    Text("Profile"),
+    ServiceSearchPage(),
+    BookingsPage(),
+    AccountApp(),
   ];
 
   void onTapped(int index) {
@@ -32,7 +35,7 @@ class _BottomNavigatorState extends State<BottomNavigator> {
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
-            backgroundColor: Colors.grey,
+            backgroundColor: Color.fromARGB(61, 104, 101, 101),
             label: "Home",
             icon: Icon(Icons.home),
           ),
@@ -51,7 +54,7 @@ class _BottomNavigatorState extends State<BottomNavigator> {
         ],
         currentIndex: selection, // Maintain the current index for selection
         onTap: onTapped,
-        selectedItemColor: Colors.black,
+        selectedItemColor: const Color.fromARGB(255, 24, 23, 23),
       ),
     );
   }

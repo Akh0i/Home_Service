@@ -310,7 +310,12 @@ class _SelectServicePageState extends State<SelectServicePage> {
                   SizedBox(
                       width: 120,
                       child: OutlinedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const FullHouse()));
+                        },
                         style: OutlinedButton.styleFrom(
                             iconColor: Colors.black,
                             side: const BorderSide(

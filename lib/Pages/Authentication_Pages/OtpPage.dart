@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:home_service/Pages/home.dart';
+import 'package:home_service/Pages/bottom%20.dart';
 
 class Otppage extends StatefulWidget {
   const Otppage({super.key});
@@ -135,7 +135,7 @@ class _OtppageState extends State<Otppage> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (contex) => const HomeScreen()));
+                                builder: (contex) => const BottomNavigator()));
                       },
                       child: const Text(
                         "Submit",
