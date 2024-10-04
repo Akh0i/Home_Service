@@ -1,16 +1,21 @@
-# home_service
+# Home Service App
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+Welcome to the **Home Service App**, a Flutter-based mobile application that allows users to easily book home services like plumbing, cleaning, and more. This app provides a user-friendly interface, seamless booking, and multiple payment options.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Easy Service Booking**: Book services such as plumbing, cleaning, car wash, etc.
+- **Multiple Payment Options**: Pay using UPI, Paytm, GPay, and more.
+- **Worker Profiles**: View profiles of service providers with their details.
+- **Service Categories**: Choose services like kitchen cleaning, bathroom cleaning, carpet cleaning, and more.
+- **Order Summary**: Get an overview of the services you've booked.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Akh0i/Home_Service.git
